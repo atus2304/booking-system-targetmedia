@@ -1,0 +1,1 @@
+INSERT INTO public.rooms ("room_number","status") VALUES ('{{(Table1.newRow || {}).room_number}}','{{(Table1.newRow || {}).status}}')

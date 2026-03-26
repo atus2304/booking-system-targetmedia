@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.rooms where room_number ilike '%{{Table1.searchText}}%';

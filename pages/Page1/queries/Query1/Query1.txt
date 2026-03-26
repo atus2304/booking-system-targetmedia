@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS rooms (
+    id SERIAL PRIMARY KEY,
+    room_number VARCHAR(10),
+    status VARCHAR(20) DEFAULT 'Available'
+);

@@ -1,0 +1,1 @@
+UPDATE public.rooms SET "room_number"= '{{Table1.updatedRow.room_number}}', "status"= '{{Table1.updatedRow.status}}' WHERE "id"= {{Table1.updatedRow.id}};
