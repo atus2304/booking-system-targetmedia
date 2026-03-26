@@ -1,0 +1,1 @@
+INSERT INTO public.rooms ("room_number","status") VALUES ('{{(JSONForm1.formData || {}).room_number}}','{{(JSONForm1.formData || {}).status}}')
