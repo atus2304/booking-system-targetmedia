@@ -1,0 +1,4 @@
+UPDATE public."rooms" SET
+		"room_number" = '{{update_form.fieldState.room_number.isVisible ? update_form.formData.room_number : update_form.sourceData.room_number}}',
+		"status" = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}'
+WHERE "id" = {{data_table.selectedRow.id}};

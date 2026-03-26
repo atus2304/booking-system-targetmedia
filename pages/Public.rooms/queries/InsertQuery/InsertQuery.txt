@@ -1,0 +1,6 @@
+INSERT INTO public."rooms" (
+	"room_number",
+	"status")
+VALUES (
+	'{{insert_form.formData.room_number}}',
+	'{{insert_form.formData.status}}');
